@@ -9,7 +9,7 @@ public class Aircraft {
     private Long aircraftID;
     private String type;
     private String airlineName;
-    private String noPassengers;
+    private int noPassengers;
     private List<Airport> airports;
 
     public Aircraft(){
@@ -40,11 +40,11 @@ public class Aircraft {
         this.airlineName = airlineName;
     }
 
-    public String getNoPassengers() {
+    public int getNoPassengers() {
         return noPassengers;
     }
 
-    public void setNoPassengers(String noPassengers) {
+    public void setNoPassengers(int noPassengers) {
         this.noPassengers = noPassengers;
     }
 

@@ -13,11 +13,11 @@ public class Airport {
 
     public Airport() { passengerList = new ArrayList<>(); }
 
-    public Long getAirportID() {
+    public Long getId() {
         return airportID;
     }
 
-    public void setAirportID(Long airportID) {
+    public void setId(Long airportID) {
         this.airportID = airportID;
     }
 
